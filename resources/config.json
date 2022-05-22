@@ -1,0 +1,89 @@
+{
+    "iteration_len": 1,
+    "room": {
+        "rent": 100000,
+        "repairing_min": 10000,
+        "repairing_max": 150000,
+        "incident_min": 10000,
+        "incident_max": 1000000
+    },
+    "clients": {
+        "bar": {
+            "drinks": [
+
+            ],
+            "food": [
+
+            ]
+        },
+        "entrance_fee": 250
+    },
+    "resources": {
+        "drinks_src": [
+
+        ], 
+        "food_src": [
+
+        ],
+        "logistics": 70000,
+        "advertising": {
+            "PR": 30000,
+            "SMM": 15000,
+            "target": 15000
+        }
+    },
+    "stuff": {
+        "team": {
+            "bartender": {
+                "amount": 4,
+                "salary": 40000
+            }, 
+            "waiter": {
+                "amount": 6,
+                "salary": 35000
+            },
+            "cleaner": {
+                "amount": 2,
+                "salary": 30000
+            },
+            "cook": {
+                "amount": 2,
+                "salary": 60000
+            },
+            "FC": {
+                "amount": 2,
+                "salary": 40000
+            },
+            "admin": {
+                "amount": 1,
+                "salary": 80000
+            }
+        }, 
+        "tax": 0.3,
+        "incident_min": 10000,
+        "incident_max": 100000
+    },
+    "equipment": {
+        "list": [
+            {
+                "speakers": {
+                    "amount": 6,
+                    "price": 50000   
+                }
+            },
+            {
+                "bar": {
+                    "amount": 1,
+                    "price": 200000
+                }
+            }, 
+            {
+                "light_music": {
+                    "amount": 6,
+                    "price": 60000
+                }
+            }
+        ],
+        "depreciation": 0.2
+    }
+}
