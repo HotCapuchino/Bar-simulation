@@ -66,24 +66,21 @@
     "equipment": {
         "list": [
             {
-                "speakers": {
-                    "amount": 6,
-                    "price": 50000   
-                }
+                "name": "speakers",
+                "amount": 6,
+                "price": 50000   
             },
             {
-                "bar": {
-                    "amount": 1,
-                    "price": 200000
-                }
+                "name": "bar",
+                "amount": 1,
+                "price": 200000
             }, 
             {
-                "light_music": {
-                    "amount": 6,
-                    "price": 60000
-                }
+                "name": "light_music",
+                "amount": 6,
+                "price": 60000
             }
         ],
-        "depreciation": 0.2
+        "depreciation": 0.1
     }
 }
