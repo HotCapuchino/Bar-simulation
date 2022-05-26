@@ -1,5 +1,5 @@
 {
-    "iteration_len": 1,
+    "iteration_len": 0,
     "room": {
         "rent": 100000,
         "repairing_min": 10000,
@@ -10,20 +10,138 @@
     "clients": {
         "bar": {
             "drinks": [
-
+                {
+                    "name": "juice",
+                    "price": 150,
+                    "max_amount": 200
+                }, 
+                {
+                    "name": "alcohol",
+                    "price": 200,
+                    "max_amount": 300
+                }, 
+                {
+                    "name": "coctail",
+                    "price": 400,
+                    "max_amount": 250
+                }, 
+                {
+                    "name": "shot",
+                    "price": 400,
+                    "max_amount": 800
+                }
             ],
             "food": [
-
-            ]
+                {
+                    "name": "salad",
+                    "price": 300,
+                    "max_amount": 400
+                },
+                {
+                    "name": "roast",
+                    "price": 400,
+                    "max_amount": 200
+                },
+                {
+                    "name": "soup",
+                    "price": 350,
+                    "max_amount": 250
+                },
+                {
+                    "name": "side_dish",
+                    "price": 150,
+                    "max_amount": 400
+                },
+                {
+                    "name": "meat",
+                    "price": 600,
+                    "max_amount": 200
+                }
+            ],
+            "drinks_demand_min": 1.7,
+            "drinks_demand_max": 3.2,
+            "food_demand_min": 0.6,
+            "food_demand_max": 1.2
         },
-        "entrance_fee": 250
+        "start_amount": 120,
+        "entrance_fee": 250,
+        "incident_min": 10000,
+        "incident_max": 30000
     },
     "resources": {
         "drinks_src": [
-
+            {
+                "name": "juice",
+                "amount": 60,
+                "price": 120
+            },
+            {
+                "name": "vodka",
+                "amount": 40,
+                "price": 300
+            },
+            {
+                "name": "gin",
+                "amount": 4,
+                "price": 800
+            },
+            {
+                "name": "beer",
+                "amount": 80,
+                "price": 100
+            },
+            {
+                "name": "champagne",
+                "amount": 20,
+                "price": 500
+            },
+            {
+                "name": "whiskey",
+                "amount": 15,
+                "price": 600
+            },
+            {
+                "name": "liquor",
+                "amount": 15,
+                "price": 400
+            }
         ], 
         "food_src": [
-
+            {
+                "name": "chips",
+                "amount": 40,
+                "price": 80
+            },
+            {
+                "name": "cheese",
+                "amount": 10,
+                "price": 150
+            },
+            {
+                "name": "meat",
+                "amount": 10,
+                "price": 300
+            },
+            {
+                "name": "snacks",
+                "amount": 50,
+                "price": 200
+            },
+            {
+                "name": "chicken",
+                "amount": 10,
+                "price": 200
+            },
+            {
+                "name": "vegetables",
+                "amount": 25,
+                "price": 100
+            },
+            {
+                "name": "burgers",
+                "amount": 45,
+                "price": 250
+            }
         ],
         "logistics": 70000,
         "advertising": {
@@ -32,34 +150,40 @@
             "target": 15000
         }
     },
-    "stuff": {
-        "team": {
-            "bartender": {
+    "staff": {
+        "team": [
+            {
+                "name": "bartender",
                 "amount": 4,
                 "salary": 40000
             }, 
-            "waiter": {
+            {
+                "name": "waiter",
                 "amount": 6,
                 "salary": 35000
             },
-            "cleaner": {
+            {
+                "name": "cleaner",
                 "amount": 2,
                 "salary": 30000
             },
-            "cook": {
+            {
+                "name": "cook",
                 "amount": 2,
                 "salary": 60000
             },
-            "FC": {
+            {
+                "name": "FC",
                 "amount": 2,
                 "salary": 40000
             },
-            "admin": {
+            {
+                "name": "admin",
                 "amount": 1,
                 "salary": 80000
             }
-        }, 
-        "tax": 0.3,
+        ],   
+        "tax_rate": 0.3,
         "incident_min": 10000,
         "incident_max": 100000
     },
